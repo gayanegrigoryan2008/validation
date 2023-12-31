@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VALIDACUM</title>
+    <link href="boostrap.css" rel="stylesheet"/>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="container-fluid">
+    <h2 class="logo">LOGO</h2>
+    <nav class="navigation">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <button class="btn-login">LOGIN</button>
+    </nav>
+</header>
+
+
+<div class="wrapper">
+    <span class="close-icon"><ion-icon name="close"></ion-icon></span>
+    <section class="login-form-box">
+        <form>
+            <h2 class="text-center">LOGIN</h2>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="text" required/>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required/>
+                <label>Password</label>
+            </div>
+            <div class="forgot-me">
+                <label class="rem-lab">
+                    <input type="checkbox"/>
+                    Remember
+                </label>
+                <a href="#" class="links">Forgot Password?</a>
+            </div>
+            <button class="btn">Login</button>
+            <div class="register-link">
+                <p>Dont have an account? <a href="#" class="links">Register</a></p>
+            </div>
+        </form>
+    </section>
+
+
+    <section class="register-form-box">
+        <form>
+            <h2 class="text-center h2">REGISTRATION</h2>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person-add"></ion-icon></span>
+                <input type="text" required/>
+                <label>Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required/>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" required/>
+                <label>Password</label>
+            </div>
+            <div class="forgot-me">
+                <label class="rem-lab">
+                    <input type="checkbox"/>
+                    I agree to all
+                </label>
+                <a href="#" class="links">Forgot Password?</a>
+            </div>
+            <button class="btn">Register</button>
+            <div class="login-link">
+                <p>Already have an account? <a href="#" class="links">Login</a></p>
+            </div>
+        </form>
+    </section>
+</div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="jquery-3.6.3.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
